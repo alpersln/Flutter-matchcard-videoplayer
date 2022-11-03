@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_homework_mediaplayer_cardgame/screens/memory_game.dart';
-import 'package:flutter_homework_mediaplayer_cardgame/screens/video_player.dart';
+import 'package:flutter_homework_mediaplayer_cardgame/screens/video_player_sample.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Widget> tabbarScreens = [
     MemoryGame(),
-    VideoPlayer(),
+    VideoPlayerSample(),
   ];
 
   @override
